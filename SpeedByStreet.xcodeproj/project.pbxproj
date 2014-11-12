@@ -14,6 +14,9 @@
 		E323FF291A008A5A006B1AAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E323FF281A008A5A006B1AAC /* Images.xcassets */; };
 		E323FF2C1A008A5A006B1AAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E323FF2A1A008A5A006B1AAC /* LaunchScreen.xib */; };
 		E323FF381A008A5A006B1AAC /* SpeedByStreetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E323FF371A008A5A006B1AAC /* SpeedByStreetTests.m */; };
+		E3A1FB101A03010900406AC5 /* EnterLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FB0F1A03010900406AC5 /* EnterLocationViewController.m */; };
+		E3A1FB131A03022200406AC5 /* GetLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FB121A03022200406AC5 /* GetLocationViewController.m */; };
+		E3A1FB161A09CF2C00406AC5 /* MainTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FB151A09CF2C00406AC5 /* MainTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		E323FF311A008A5A006B1AAC /* SpeedByStreetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedByStreetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E323FF361A008A5A006B1AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E323FF371A008A5A006B1AAC /* SpeedByStreetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedByStreetTests.m; sourceTree = "<group>"; };
+		E3A1FB0E1A03010900406AC5 /* EnterLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterLocationViewController.h; sourceTree = "<group>"; };
+		E3A1FB0F1A03010900406AC5 /* EnterLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterLocationViewController.m; sourceTree = "<group>"; };
+		E3A1FB111A03022200406AC5 /* GetLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetLocationViewController.h; path = ../GetLocationViewController.h; sourceTree = "<group>"; };
+		E3A1FB121A03022200406AC5 /* GetLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetLocationViewController.m; path = ../GetLocationViewController.m; sourceTree = "<group>"; };
+		E3A1FB141A09CF2C00406AC5 /* MainTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewDataSource.h; sourceTree = "<group>"; };
+		E3A1FB151A09CF2C00406AC5 /* MainTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 			children = (
 				E323FF1F1A008A5A006B1AAC /* AppDelegate.h */,
 				E323FF201A008A5A006B1AAC /* AppDelegate.m */,
+				E3A1FB111A03022200406AC5 /* GetLocationViewController.h */,
+				E3A1FB121A03022200406AC5 /* GetLocationViewController.m */,
+				E3A1FB0E1A03010900406AC5 /* EnterLocationViewController.h */,
+				E3A1FB0F1A03010900406AC5 /* EnterLocationViewController.m */,
+				E3A1FB141A09CF2C00406AC5 /* MainTableViewDataSource.h */,
+				E3A1FB151A09CF2C00406AC5 /* MainTableViewDataSource.m */,
 				E323FF221A008A5A006B1AAC /* ViewController.h */,
 				E323FF231A008A5A006B1AAC /* ViewController.m */,
 				E323FF251A008A5A006B1AAC /* Main.storyboard */,
@@ -219,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A1FB101A03010900406AC5 /* EnterLocationViewController.m in Sources */,
+				E3A1FB131A03022200406AC5 /* GetLocationViewController.m in Sources */,
 				E323FF241A008A5A006B1AAC /* ViewController.m in Sources */,
+				E3A1FB161A09CF2C00406AC5 /* MainTableViewDataSource.m in Sources */,
 				E323FF211A008A5A006B1AAC /* AppDelegate.m in Sources */,
 				E323FF1E1A008A5A006B1AAC /* main.m in Sources */,
 			);
@@ -414,6 +432,7 @@
 				E323FF3D1A008A5A006B1AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E323FF3E1A008A5A006B1AAC /* Build configuration list for PBXNativeTarget "SpeedByStreetTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +441,7 @@
 				E323FF401A008A5A006B1AAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

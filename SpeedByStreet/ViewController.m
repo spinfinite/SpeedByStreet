@@ -7,17 +7,36 @@
 //
 
 #import "ViewController.h"
+#import "MainTableViewDataSource.h"
 
-@interface ViewController ()
+@interface ViewController () <UITableViewDelegate>
+
+@property (nonatomic, strong) UITableView *SBSTableView;
+@property (nonatomic, strong) MainTableViewDataSource *tableViewDataSource;
 
 @end
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"The SBS App";
+    self.tableViewDataSource = [MainTableViewDataSource new];
+    
+    self.SBSTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.SBSTableView.delegate = self;
+    
+    [self.view addSubview:self.SBSTableView];
+    
+    [self.tableViewDataSource registerTableView:self.SBSTableView];
+     
+    self.SBSTableView.dataSource = self.tableViewDataSource;
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

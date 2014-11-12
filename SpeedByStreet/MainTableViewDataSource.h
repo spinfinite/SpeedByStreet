@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface MainTableViewDataSource : NSObject
+@interface MainTableViewDataSource : NSObject <UITableViewDataSource>
+
+- (void)registerTableView:(UITableView *)tableView;
 
 @end
