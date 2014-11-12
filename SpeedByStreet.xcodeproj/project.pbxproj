@@ -17,6 +17,7 @@
 		E3A1FB101A03010900406AC5 /* EnterLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FB0F1A03010900406AC5 /* EnterLocationViewController.m */; };
 		E3A1FB131A03022200406AC5 /* GetLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FB121A03022200406AC5 /* GetLocationViewController.m */; };
 		E3A1FB161A09CF2C00406AC5 /* MainTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FB151A09CF2C00406AC5 /* MainTableViewDataSource.m */; };
+		E3B1B4BB1A12EB6E004D790B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B1B4BA1A12EB6E004D790B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E3A1FB121A03022200406AC5 /* GetLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetLocationViewController.m; path = ../GetLocationViewController.m; sourceTree = "<group>"; };
 		E3A1FB141A09CF2C00406AC5 /* MainTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewDataSource.h; sourceTree = "<group>"; };
 		E3A1FB151A09CF2C00406AC5 /* MainTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewDataSource.m; sourceTree = "<group>"; };
+		E3B1B4BA1A12EB6E004D790B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B1B4BB1A12EB6E004D790B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +75,7 @@
 		E323FF0F1A008A5A006B1AAC = {
 			isa = PBXGroup;
 			children = (
+				E3B1B4BA1A12EB6E004D790B /* MapKit.framework */,
 				E323FF1A1A008A5A006B1AAC /* SpeedByStreet */,
 				E323FF341A008A5A006B1AAC /* SpeedByStreetTests */,
 				E323FF191A008A5A006B1AAC /* Products */,
