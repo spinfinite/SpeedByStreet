@@ -43,6 +43,8 @@
     self.SBSTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     self.SBSTableView.delegate = self;
     
+    self.SBSTableView.rowHeight = self.view.frame.size.width;
+    
     [self.view addSubview:self.SBSTableView];
     
     [self.tableViewDataSource registerTableView:self.SBSTableView];
