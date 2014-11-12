@@ -7,8 +7,12 @@
 //
 
 #import "GetLocationViewController.h"
+#import <MapKit/MapKit.h>
 
 @interface GetLocationViewController ()
+
+@property (nonatomic, strong) CLLocationManager *manager;
+@property (nonatomic, strong) MKMapView *mapView;
 
 @end
 
@@ -17,6 +21,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    self.manager = [[CLLocationManager alloc] init];
+    [self.manager requestWhenInUseAuthorization];
+    
+    CLLocationCoordinate2D location = CLLocationCoordinate2DMake(40.226192, -111.660087);
+    float metersInmile = 1609;
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(location, .5* metersInmile, .5* metersInmile);
+    
+    [self.mapView setRegion:region];
     
     self.view.backgroundColor = [UIColor greenColor];
     

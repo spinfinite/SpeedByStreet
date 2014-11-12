@@ -8,15 +8,11 @@
 
 #import "ViewController.h"
 #import "MainTableViewDataSource.h"
-#import <MapKit/MapKit.h>
 
 @interface ViewController () <UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *SBSTableView;
 @property (nonatomic, strong) MainTableViewDataSource *tableViewDataSource;
-@property (nonatomic, strong) CLLocationManager *manager;
-@property (nonatomic, strong) MKMapView *mapView;
-
 
 @end
 
@@ -29,16 +25,6 @@
     
     self.title = @"The SBS App";
     self.tableViewDataSource = [MainTableViewDataSource new];
-    
-    
-    self.manager = [[CLLocationManager alloc] init];
-    [self.manager requestWhenInUseAuthorization];
-    
-    CLLocationCoordinate2D location = CLLocationCoordinate2DMake(40.226192, -111.660087);
-    float metersInmile = 1609;
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(location, .5* metersInmile, .5*metersInmile);
-    
-    [self.mapView setRegion:region];
     
     self.SBSTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     self.SBSTableView.delegate = self;

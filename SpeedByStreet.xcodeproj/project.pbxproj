@@ -94,10 +94,10 @@
 		E323FF1A1A008A5A006B1AAC /* SpeedByStreet */ = {
 			isa = PBXGroup;
 			children = (
-				E3B1B4BD1A130878004D790B /* GetLocationViewController.h */,
-				E3B1B4BC1A130878004D790B /* GetLocationViewController.m */,
 				E323FF1F1A008A5A006B1AAC /* AppDelegate.h */,
 				E323FF201A008A5A006B1AAC /* AppDelegate.m */,
+				E3B1B4BD1A130878004D790B /* GetLocationViewController.h */,
+				E3B1B4BC1A130878004D790B /* GetLocationViewController.m */,
 				E3A1FB0E1A03010900406AC5 /* EnterLocationViewController.h */,
 				E3A1FB0F1A03010900406AC5 /* EnterLocationViewController.m */,
 				E3A1FB141A09CF2C00406AC5 /* MainTableViewDataSource.h */,
