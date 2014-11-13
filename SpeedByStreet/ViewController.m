@@ -26,10 +26,10 @@
     self.title = @"The SBS App";
     self.tableViewDataSource = [MainTableViewDataSource new];
     
-    self.SBSTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.SBSTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.SBSTableView.delegate = self;
     
-    self.SBSTableView.rowHeight = self.view.frame.size.width;
+    self.SBSTableView.rowHeight = (self.view.frame.size.height - 64) / 2;
     
     [self.view addSubview:self.SBSTableView];
     
@@ -38,8 +38,6 @@
     self.SBSTableView.dataSource = self.tableViewDataSource;
     
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
