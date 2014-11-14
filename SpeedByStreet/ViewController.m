@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "MainTableViewDataSource.h"
+#import "GetLocationViewController.h"
+#import "EnterLocationViewController.h"
 
 @interface ViewController () <UITableViewDelegate>
 
@@ -42,6 +44,24 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    if(indexPath.row == 0){
+        
+        GetLocationViewController *getLocationView = [GetLocationViewController new];
+        [self.navigationController pushViewController:getLocationView animated:YES];
+        
+    }
+    else if(indexPath.row == 1){
+        
+        EnterLocationViewController *enterLocationView = [EnterLocationViewController new];
+        [self.navigationController pushViewController:enterLocationView animated:YES];
+        
+    }
+
+
 }
 
 @end

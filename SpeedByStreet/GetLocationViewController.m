@@ -21,8 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
+        
     self.manager = [[CLLocationManager alloc] init];
     [self.manager requestWhenInUseAuthorization];
     
