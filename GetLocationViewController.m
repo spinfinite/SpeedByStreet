@@ -12,7 +12,6 @@
 @interface GetLocationViewController ()
 
 @property (nonatomic, strong) CLLocationManager *manager;
-//@property (nonatomic, weak) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
@@ -36,6 +35,18 @@
     
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if(indexPath.row == 0){
+        
+
+        
+    }
+    else if(indexPath.row == 1){
+        
+        
+    }
+}
 /*
 #pragma mark - Navigation
 
@@ -43,7 +54,6 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-}
 */
 
 @end

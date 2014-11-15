@@ -1,5 +1,5 @@
 //
-//  GetLocationViewController.h
+//  DeleteMeViewController.h
 //  SpeedByStreet
 //
 //  Created by Sergio Perez on 11/15/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GetLocationViewController : UIViewController
-
-//- (void) GetLocationTableView (
+@interface DeleteMeViewController : UIViewController
 
 @end
