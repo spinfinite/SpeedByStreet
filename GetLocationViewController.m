@@ -2,7 +2,7 @@
 //  GetLocationViewController.m
 //  SpeedByStreet
 //
-//  Created by Sergio Perez on 10/30/14.
+//  Created by Sergio Perez on 11/15/14.
 //  Copyright (c) 2014 Learning iOS Development. All rights reserved.
 //
 
@@ -12,7 +12,8 @@
 @interface GetLocationViewController ()
 
 @property (nonatomic, strong) CLLocationManager *manager;
-@property (nonatomic, strong) MKMapView *mapView;
+//@property (nonatomic, weak) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
 
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-        
+    
     self.manager = [[CLLocationManager alloc] init];
     [self.manager requestWhenInUseAuthorization];
     
@@ -33,11 +34,6 @@
     
     self.view.backgroundColor = [UIColor greenColor];
     
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /*

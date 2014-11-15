@@ -14,10 +14,12 @@
 		E323FF291A008A5A006B1AAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E323FF281A008A5A006B1AAC /* Images.xcassets */; };
 		E323FF2C1A008A5A006B1AAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E323FF2A1A008A5A006B1AAC /* LaunchScreen.xib */; };
 		E323FF381A008A5A006B1AAC /* SpeedByStreetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E323FF371A008A5A006B1AAC /* SpeedByStreetTests.m */; };
-		E3A1FB101A03010900406AC5 /* EnterLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FB0F1A03010900406AC5 /* EnterLocationViewController.m */; };
+		E39A4AFB1A17CA3600909E63 /* GetLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39A4AF91A17CA3600909E63 /* GetLocationViewController.m */; };
+		E39A4AFC1A17CA3600909E63 /* GetLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39A4AFA1A17CA3600909E63 /* GetLocationViewController.xib */; };
+		E39A4B001A17CAA000909E63 /* EnterLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39A4AFE1A17CAA000909E63 /* EnterLocationViewController.m */; };
+		E39A4B011A17CAA000909E63 /* EnterLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39A4AFF1A17CAA000909E63 /* EnterLocationViewController.xib */; };
 		E3A1FB161A09CF2C00406AC5 /* MainTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A1FB151A09CF2C00406AC5 /* MainTableViewDataSource.m */; };
 		E3B1B4BB1A12EB6E004D790B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B1B4BA1A12EB6E004D790B /* MapKit.framework */; };
-		E3B1B4BE1A130878004D790B /* GetLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B1B4BC1A130878004D790B /* GetLocationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +46,15 @@
 		E323FF311A008A5A006B1AAC /* SpeedByStreetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedByStreetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E323FF361A008A5A006B1AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E323FF371A008A5A006B1AAC /* SpeedByStreetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedByStreetTests.m; sourceTree = "<group>"; };
-		E3A1FB0E1A03010900406AC5 /* EnterLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterLocationViewController.h; sourceTree = "<group>"; };
-		E3A1FB0F1A03010900406AC5 /* EnterLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterLocationViewController.m; sourceTree = "<group>"; };
+		E39A4AF81A17CA3600909E63 /* GetLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetLocationViewController.h; path = ../GetLocationViewController.h; sourceTree = "<group>"; };
+		E39A4AF91A17CA3600909E63 /* GetLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetLocationViewController.m; path = ../GetLocationViewController.m; sourceTree = "<group>"; };
+		E39A4AFA1A17CA3600909E63 /* GetLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GetLocationViewController.xib; path = ../GetLocationViewController.xib; sourceTree = "<group>"; };
+		E39A4AFD1A17CAA000909E63 /* EnterLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnterLocationViewController.h; path = ../EnterLocationViewController.h; sourceTree = "<group>"; };
+		E39A4AFE1A17CAA000909E63 /* EnterLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnterLocationViewController.m; path = ../EnterLocationViewController.m; sourceTree = "<group>"; };
+		E39A4AFF1A17CAA000909E63 /* EnterLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EnterLocationViewController.xib; path = ../EnterLocationViewController.xib; sourceTree = "<group>"; };
 		E3A1FB141A09CF2C00406AC5 /* MainTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewDataSource.h; sourceTree = "<group>"; };
 		E3A1FB151A09CF2C00406AC5 /* MainTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewDataSource.m; sourceTree = "<group>"; };
 		E3B1B4BA1A12EB6E004D790B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		E3B1B4BC1A130878004D790B /* GetLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetLocationViewController.m; sourceTree = "<group>"; };
-		E3B1B4BD1A130878004D790B /* GetLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLocationViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +100,12 @@
 			children = (
 				E323FF1F1A008A5A006B1AAC /* AppDelegate.h */,
 				E323FF201A008A5A006B1AAC /* AppDelegate.m */,
-				E3B1B4BD1A130878004D790B /* GetLocationViewController.h */,
-				E3B1B4BC1A130878004D790B /* GetLocationViewController.m */,
-				E3A1FB0E1A03010900406AC5 /* EnterLocationViewController.h */,
-				E3A1FB0F1A03010900406AC5 /* EnterLocationViewController.m */,
+				E39A4AF81A17CA3600909E63 /* GetLocationViewController.h */,
+				E39A4AF91A17CA3600909E63 /* GetLocationViewController.m */,
+				E39A4AFA1A17CA3600909E63 /* GetLocationViewController.xib */,
+				E39A4AFD1A17CAA000909E63 /* EnterLocationViewController.h */,
+				E39A4AFE1A17CAA000909E63 /* EnterLocationViewController.m */,
+				E39A4AFF1A17CAA000909E63 /* EnterLocationViewController.xib */,
 				E3A1FB141A09CF2C00406AC5 /* MainTableViewDataSource.h */,
 				E3A1FB151A09CF2C00406AC5 /* MainTableViewDataSource.m */,
 				E323FF221A008A5A006B1AAC /* ViewController.h */,
@@ -220,6 +226,8 @@
 			files = (
 				E323FF271A008A5A006B1AAC /* Main.storyboard in Resources */,
 				E323FF2C1A008A5A006B1AAC /* LaunchScreen.xib in Resources */,
+				E39A4AFC1A17CA3600909E63 /* GetLocationViewController.xib in Resources */,
+				E39A4B011A17CAA000909E63 /* EnterLocationViewController.xib in Resources */,
 				E323FF291A008A5A006B1AAC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,9 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A1FB101A03010900406AC5 /* EnterLocationViewController.m in Sources */,
 				E323FF241A008A5A006B1AAC /* ViewController.m in Sources */,
-				E3B1B4BE1A130878004D790B /* GetLocationViewController.m in Sources */,
+				E39A4AFB1A17CA3600909E63 /* GetLocationViewController.m in Sources */,
+				E39A4B001A17CAA000909E63 /* EnterLocationViewController.m in Sources */,
 				E3A1FB161A09CF2C00406AC5 /* MainTableViewDataSource.m in Sources */,
 				E323FF211A008A5A006B1AAC /* AppDelegate.m in Sources */,
 				E323FF1E1A008A5A006B1AAC /* main.m in Sources */,
