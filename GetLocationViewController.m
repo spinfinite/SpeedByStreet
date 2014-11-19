@@ -34,19 +34,11 @@
     self.view.backgroundColor = [UIColor greenColor];
     
 }
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    if(indexPath.row == 0){
-        
-
-        
-    }
-    else if(indexPath.row == 1){
-        
-        
-    }
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
+
 /*
 #pragma mark - Navigation
 
