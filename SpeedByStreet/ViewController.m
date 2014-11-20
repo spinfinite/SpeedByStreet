@@ -10,7 +10,6 @@
 #import "MainTableViewDataSource.h"
 #import "GetLocationViewController.h"
 #import "EnterLocationViewController.h"
-#import "GetLocationTableViewController.h"
 
 @interface ViewController () <UITableViewDelegate>
 
@@ -55,12 +54,7 @@
         [self.navigationController pushViewController:getLocationView animated:YES];
         
     }
-//    if(indexPath.row == 0){
-//        
-//        GetLocationTableViewController *getTableLocationView = [GetLocationTableViewController new];
-//        [self.navigationController pushViewController:getTableLocationView animated:YES];
-//        
-//    }
+
     else if(indexPath.row == 1){
         
         EnterLocationViewController *enterLocationView = [EnterLocationViewController new];

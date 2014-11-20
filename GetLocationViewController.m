@@ -2,7 +2,7 @@
 //  GetLocationViewController.m
 //  SpeedByStreet
 //
-//  Created by Sergio Perez on 11/15/14.
+//  Created by Sergio Perez on 11/18/14.
 //  Copyright (c) 2014 Learning iOS Development. All rights reserved.
 //
 
@@ -34,6 +34,23 @@
     self.view.backgroundColor = [UIColor greenColor];
     
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if(indexPath.row == 0){
+        
+        GetLocationViewController *getLocationView = [GetLocationViewController new];
+        [self.navigationController pushViewController:getLocationView animated:YES];
+    }
+    
+    else if(indexPath.row == 1){
+        
+        GetLocationViewController *getLocationView = [GetLocationViewController new];
+        [self.navigationController pushViewController:getLocationView animated:YES];
+        
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -46,6 +63,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+}
 */
 
 @end
